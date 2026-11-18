@@ -1,4 +1,4 @@
-Assurich RoboCare Website - Rev6 (AVISION) — blue & white theme, lean 6-section homepage, 12 product pages
+Assurich RoboCare Website — blue and white healthcare technology website
 ==========================================
 วิธีเปิด: ดับเบิลคลิก index.html (เปิดในเบราว์เซอร์ได้ทันที ไม่ต้องติดตั้งอะไร)
 
