@@ -1,4 +1,4 @@
-/* Assurich RoboCare — Rev2 · Blue & White theme */
+/* Assurich RoboCare — Blue & White theme */
 :root{
   --blue:#1677D2; --blue-d:#0E5DAA; --navy:#0B2E59; --sky:#EAF4FD; --sky2:#D6E9FB;
   --accent:#5DB5F0; --bg:#FFFFFF; --alt:#F4F8FD; --text:#22324A; --muted:#5E6F86;
@@ -151,7 +151,6 @@ footer.site a{color:#B9CBE3;text-decoration:none}footer.site a:hover{color:#fff}
 .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:30px}
 .foot-grid ul{list-style:none}.foot-grid li{margin-bottom:6px}
 .foot-bottom{border-top:1px solid rgba(255,255,255,.12);margin-top:36px;padding-top:18px;font-size:.84rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
-.av-mark{position:absolute;left:10px;bottom:6px;font-size:9px;letter-spacing:.1em;color:rgba(255,255,255,.12);user-select:none}
 
 .wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:#1FA855;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.2)}
 .wa-float svg{width:32px;height:32px;fill:#fff}
@@ -168,7 +167,7 @@ footer.site a{color:#B9CBE3;text-decoration:none}footer.site a:hover{color:#fff}
   section{padding:54px 0}.cta{padding:32px 24px}.band{padding:40px 20px;border-radius:24px}
 }
 
-/* ===== Rev4 additions (Rev2 look) — product spotlight & detail pages ===== */
+/* ===== Product spotlight and detail pages — product spotlight & detail pages ===== */
 .link{font-weight:600;color:var(--blue-d);text-decoration:none;border-bottom:2px solid var(--sky2);padding-bottom:2px}
 .link:hover{border-color:var(--blue)}
 .rule{width:56px;height:3px;border-radius:3px;background:var(--accent);margin:22px 0}
@@ -199,7 +198,7 @@ footer.site a{color:#B9CBE3;text-decoration:none}footer.site a:hover{color:#fff}
 @media (max-width:980px){.spot,.pd{grid-template-columns:1fr}.pd-main{position:static}}
 @media (max-width:600px){.kv,.pd-gal{grid-template-columns:1fr 1fr}}
 
-/* ===== Rev6 — lean homepage blocks in blue & white ===== */
+/* ===== Homepage presentation in blue & white ===== */
 .flow{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .flow .st{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow);position:relative}
 .flow .st i{display:block;font-family:"Fraunces",Georgia,serif;font-size:1.5rem;color:var(--blue);margin-bottom:20px}
@@ -219,3 +218,98 @@ footer.site a{color:#B9CBE3;text-decoration:none}footer.site a:hover{color:#fff}
 .dots-nav button{width:10px;height:10px;border-radius:999px;border:0;background:rgba(255,255,255,.6);cursor:pointer;padding:0;transition:.3s}
 .dots-nav button.on{width:26px;background:#fff}
 @media (prefers-reduced-motion:reduce){.slider .slide{transition:none}}
+
+/* Refined editorial presentation */
+body{background:#fff}
+.wrap{max-width:1180px}
+.nav{height:82px}
+header.site{border-bottom-color:#dce4ea}
+.logo-mark{
+  border-radius:8px;
+  background:var(--navy);
+  font-family:Georgia,serif;
+  font-size:1.15rem;
+  font-weight:700;
+}
+.logo small{letter-spacing:.01em}
+.menu{gap:4px}
+.menu a{border-radius:6px;font-size:.9rem}
+.menu a:hover,.menu a.active{background:#edf3f7}
+.btn{border-radius:7px}
+.btn-primary{box-shadow:none}
+.hero{padding:34px 0 64px}
+.hero-card{
+  min-height:560px;
+  border-radius:14px;
+  padding:64px;
+  background:linear-gradient(135deg,#123553 0%,#1d4d70 72%,#2d6688 100%);
+  box-shadow:none;
+}
+.hero-card h1{
+  max-width:620px;
+  font-size:clamp(3.1rem,5.4vw,5.2rem);
+  line-height:.98;
+  letter-spacing:-.055em;
+  font-weight:750;
+}
+.hero-kicker{
+  display:block;
+  margin-bottom:18px;
+  color:#b9d1df;
+  font-size:.78rem;
+  font-weight:700;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+}
+.hero-card p.sub{max-width:570px;font-size:1.05rem;line-height:1.75}
+.hero-img{border-radius:10px;aspect-ratio:4/5}
+.trust{font-size:.86rem}
+.trust .dots span{border-radius:50%;border:0}
+.serif{display:inline!important;color:inherit!important;font-family:inherit!important;font-style:normal!important;font-weight:inherit!important}
+section{padding:84px 0}
+.alt{background:#f5f7f8}
+.eyebrow{font-size:.76rem;letter-spacing:.12em;text-transform:uppercase}
+.eyebrow::before{width:24px;height:1px;border-radius:0}
+h2{font-size:clamp(2rem,3.2vw,3rem);letter-spacing:-.04em}
+.card{
+  border-radius:9px;
+  box-shadow:none;
+  border-color:#dde5ea;
+}
+a.card:hover{transform:none;box-shadow:none;border-color:#98b7c9}
+.card p{line-height:1.65}
+.icon{border-radius:7px;width:44px;height:44px;background:#edf3f6}
+.flow .st{border-radius:9px;box-shadow:none}
+.flow .st i{
+  font-family:inherit;
+  font-size:.72rem;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  margin-bottom:26px;
+}
+.flow .st.dark{background:#123553}
+.thumb{border-radius:7px}
+.spot{gap:64px}
+.spot .photo{border-radius:10px}
+.kv div{border-radius:7px}
+.cta{border-radius:12px;background:#123553}
+.photo{border-radius:10px}
+.wa-float{border-radius:8px;width:54px;height:54px}
+.foot-grid{gap:42px}
+footer.site{background:#123553}
+@media (max-width:980px){
+  .hero-card{min-height:auto;padding:44px 36px}
+  .hero-card h1{font-size:clamp(2.8rem,8vw,4.3rem)}
+  .hero-img{aspect-ratio:16/10}
+}
+@media (max-width:600px){
+  .nav{height:72px}
+  .hero{padding:18px 0 44px}
+  .hero-card{padding:34px 24px;border-radius:10px}
+  .hero-card h1{font-size:2.55rem;line-height:1.02}
+  .hero-img{aspect-ratio:4/3}
+  section{padding:58px 0}
+  h2{font-size:2rem}
+  .menu{top:72px}
+  .wa-float{right:14px;bottom:14px}
+}

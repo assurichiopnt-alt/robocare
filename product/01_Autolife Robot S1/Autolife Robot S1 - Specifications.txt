@@ -1,4 +1,4 @@
-﻿Product: Autolife Robot S1
+Product: Autolife Robot S1
 Category: AI-Robotics
 Source: https://www.ai-robotics928.com/showproducts/productid/6031275/cid/590035/autolife-robot-s1/
 Retrieved: 2026-11-18
