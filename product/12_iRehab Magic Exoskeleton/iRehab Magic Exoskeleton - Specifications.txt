@@ -1,0 +1,14 @@
+﻿Product: iRehab Magic Exoskeleton
+Category: Healthcare Products
+Source: https://www.ai-robotics928.com/showproducts/productid/5827981/cid/590067/irehab-magic-exoskeleton/
+Retrieved: 2026-11-18
+
+=== Description / Specifications ===
+This device is equipped with advanced technologies, including AI, sensors, and cameras, to assist users in walking safely and comfortably. It features two power units at the hip joints that provide assisted power for thigh extension and flexion. This assistance helps users walk more easily, conserve energy, and improve their quality of life. The device is designed to adapt to the individual's pace and movement, providing feedback on posture and balance to help maintain better mobility and minimize the risk of falls.
+
+These intelligent walking aids are particularly beneficial for individuals with mobility impairments, such as those recovering from strokes or with conditions like Parkinson's disease. By integrating AI, Zuowei's exoskeletons offer a more responsive and personalized rehabilitation experience, enhancing users' independence and confidence in their mobility.
+
+Assurich Product Catalogue Ind.22 May.pdf
+734.42 KB
+
+(Additional specifications are shown in the *_spec_XX.png images in this folder.)
