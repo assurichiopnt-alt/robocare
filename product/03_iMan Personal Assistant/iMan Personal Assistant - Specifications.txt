@@ -1,0 +1,13 @@
+﻿Product: iMan Personal Assistant
+Category: Healthcare Products
+Source: https://www.ai-robotics928.com/showproducts/productid/5904046/cid/590067/iman-personal-assistant/
+Retrieved: 2026-11-18
+
+=== Description / Specifications ===
+Benefit:
+
+- Less staff queuing, more time for personalized senior care
+
+- Automate food prep
+
+(Additional specifications are shown in the *_spec_XX.png images in this folder.)
