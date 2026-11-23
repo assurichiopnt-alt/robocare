@@ -2,3 +2,9 @@
 Thumbs.db
 Desktop.ini
 *.log
+
+# AVISION Rev1 - internal files, never publish
+Pic/
+*.pdf
+!product/**/*.pdf
+WhatsApp*
